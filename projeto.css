@@ -1,0 +1,56 @@
+.body {
+    font: arial;
+    border: 1px #DDDDDD;
+    text-align: center;
+}
+
+.posc1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #003366;
+
+}
+.posc2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #1398BE;
+
+}
+.posc3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #DE9800;
+
+}
+.posc4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #CCCCCC;
+
+}
+.posc5 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #C91B04;
+
+}
+.cabeçalho {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+}
+.nomtim {
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+}
+table td:nth-child(3) {
+   font-size: ;
+}
