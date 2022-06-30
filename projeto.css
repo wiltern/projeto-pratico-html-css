@@ -2,13 +2,59 @@
     font: arial;
     border: 1px #DDDDDD;
     text-align: center;
+    
 }
+* {
+    box-sizing: border-box;
+}
+/* configuração da tabela */
+.tabela {
+    font-size: 50px;
+    border: 1px solid #CCCCCC;
+    margin: 0 auto;
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    position: ;
+    width: 100%;
+    max-width: 800%;
+    border-width: 1px;
+    border-bottom: 1px;
+    
+}
+
+.cabeçalho {
+    font-size: 13px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+}
+
+.pos:nth-child(n + 1){
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
+.pos {
+     text-align: center;
+     width: 0 auto;
+     margin-left: 0 auto;
+     height: 0 auto;
+     border-style: 1px solid;
+    
+
+}
+
+
 
 .posc1 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #003366;
+    
 
 }
 .posc2 {
@@ -39,18 +85,68 @@
     color: #C91B04;
 
 }
-.cabeçalho {
-    font-size: 13px;
-    color: #999999;
-    font-weight: bold;
-    text-align: center;
-}
+
 .nomtim {
     font-size: 14px;
     color: #666666;
     font-weight: bold;
     text-align: left;
 }
-table td:nth-child(3) {
-   font-size: ;
+.pontos{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F7F7F7;
 }
+.bgroung {
+    background-color: #F7F7F7;
+}
+
+
+
+
+/* configuração das legendas */
+ .quad {
+    width: 10px;
+    height: 10px;
+    background-color: gray;    
+    border-radius: 15%;
+ }
+ .quad:nth-child(1) {
+    background-color: #003366;
+ }
+ .quad:nth-child(4) {
+    background-color: #1398BE;
+ }
+ .quad:nth-child(6) {
+    background-color: #DE9800;
+ }
+ .quad:nth-child(8) {
+    background-color: #C91B04;
+ }
+ 
+
+ .legenda {
+    list-style: none;
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding: auto;
+    justify-content: space-around;
+    width: 400px;
+    padding-left: 0;
+    margin: -5px;
+   
+ }
+
+ .leg2{
+    font-size: 10px;
+    color: #555555;
+    padding-left: 6px;
+    margin: -5px;
+    align-items: center;
+    padding: auto;
+ }
