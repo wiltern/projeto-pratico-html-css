@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./projeto.css">
     <title>Classificação Campeonato ACME - 2022</title>
+    <style>
+
+        body{
+            border: 1px solid #DDDDDD;
+        }
+        th, td {
+            border-bottom: 1px solid #DDDDDD;
+        }
+        
+    </style>
 </head>
 <body>
     
-    <table class="tabela" border="1px" >
-       <tr class="cabeçalho">
-            <td></td>
-            <td></td>
-            <td>P</td>
-            <td>J</td>
-            <td>V</td>
-            <td>E</td>
-            <td>D</td>
-            <td>GP</td>
-            <td>GC</td>
-            <td>SG</td>
-            <td>%</td>
-        </tr>
+    <table class="tabela" >
+       <thead class="cabeçalho">
+            <td width=7% height="5"></td>
+            <td width=30% height="5"></td>
+            <td width=7% height="5">P</td>
+            <td width=7% height="5">J</td>
+            <td width=7% height="5">V</td>
+            <td width=7% height="5">E</td>
+            <td width=7% height="5">D</td>
+            <td width=7% height="5">GP</td>
+            <td width=7% height="5">GC</td>
+            <td width=7% height="5">SG</td>
+            <td width=11% height="5">%</td>
+       </thead>
 
         <tr class="pos">
-            <td class="posc1"width=9% height="5">1</td>
+            <td class="posc1">1</td>
             <td class="nomtim">Corinthians</td>
-            <td class="pontos"width=9% height="5">17</td>
-            <tdwidth=9% height="9%">7</td>
-            <td class="bgroung"width=9% height="9%">5</td>
-            <td>2</td>
+            <td class="pontos">17</td>
+            <td >7</td>
+            <td class="bgroung">5</td>
+            <td >2</td>
             <td class="bgroung">0</td>
-            <td>15</td>
-            <td class="bgroung">8</td>
-            <td>7</td>
-            <td class="bgroung">81</td>
+            <td >15</td>
+            <td class="bgroung" >8</td>
+            <td >7</td>
+            <td class="bgroung" ">81</td>
         </tr>
 
         <tr class="pos">
@@ -66,7 +76,7 @@
             <td class="bgroung">71.4</td>
         </tr>
 
-        <tr class="pos">
+        <tr class="poshold">
             <td class="posc2">4</td>
             <td class="nomtim">Santos</td>
             <td class="pontos">12</td>
@@ -234,7 +244,7 @@
             <td class="bgroung">44.4</td>
         </tr>
 
-        <tr class="pos">
+        <tr class="poshold">
             <td class="posc4">16</td>
             <td class="nomtim">Atlético-PR</td>
             <td class="pontos">7</td>
@@ -322,7 +332,26 @@
 
 
 
+    <ul class="leg2">
+        <li class="tit">P</li>
+        <p>pontos</p>
+        <li class="tit">J</li>
+        <p>jogos</p>
+        <li class="tit">V</li>
+        <p>vitórias</p>
+        <li class="tit">E</li>
+        <p>empates</p>
+        <li class="tit">D</li>
+        <p>derrotas</p>
+        <li class="tit">GP</li>
+        <p>gols pró</p>
+        <li class="tit">GC</li>
+        <p>gols contra</p>
+        <li class="tit">SG</li>
+        <p>saldo de gols</p>
+        <li class="tit">(%)</li>
+        <p>aproveitamento</p>
+    </ul>
     
-    <p class="leg2">P pontos J jogos V vitórias E empates D derrotas GP gols pró GC gols contra SG saldo de gols (%) aproveitamento</p>
 </body>
 </html>

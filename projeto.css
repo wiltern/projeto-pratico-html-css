@@ -2,25 +2,20 @@
     font: arial;
     border: 1px #DDDDDD;
     text-align: center;
-    
 }
 * {
     box-sizing: border-box;
 }
+
 /* configuração da tabela */
 .tabela {
     font-size: 50px;
-    border: 1px solid #CCCCCC;
-    margin: 0 auto;
     display: flexbox;
     text-align: center;
     justify-content: center;
-    position: ;
     width: 100%;
     max-width: 800%;
-    border-width: 1px;
-    border-bottom: 1px;
-    
+    border-style: 1px solid;
 }
 
 .cabeçalho {
@@ -37,53 +32,61 @@
     text-align: center;
 }
 
+.poshold:nth-child(n + 1){
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+
 .pos {
      text-align: center;
      width: 0 auto;
      margin-left: 0 auto;
      height: 0 auto;
-     border-style: 1px solid;
-    
-
+     border-style: 1px solid;  
 }
 
-
+.poshold{
+    text-align: center;
+    width: 0 auto;
+    margin-left: 0 auto;
+    height: 0 auto;
+    border-style: 1px solid;
+}
 
 .posc1 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #003366;
-    
-
 }
+
 .posc2 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #1398BE;
-
 }
+
 .posc3 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #DE9800;
-
 }
+
 .posc4 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #CCCCCC;
-
 }
+
 .posc5 {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     color: #C91B04;
-
 }
 
 .nomtim {
@@ -92,6 +95,7 @@
     font-weight: bold;
     text-align: left;
 }
+
 .pontos{
     font-size: 14px;
     color: black;
@@ -99,11 +103,14 @@
     text-align: center;
     background-color: #F7F7F7;
 }
+
 .bgroung {
     background-color: #F7F7F7;
 }
 
-
+.poshold {
+     border-bottom: 2px solid #CCCCCC;
+}
 
 
 /* configuração das legendas */
@@ -113,6 +120,7 @@
     background-color: gray;    
     border-radius: 15%;
  }
+
  .quad:nth-child(1) {
     background-color: #003366;
  }
@@ -137,16 +145,27 @@
     padding: auto;
     justify-content: space-around;
     width: 400px;
-    padding-left: 0;
+    padding-left: 10px;
     margin: -5px;
-   
  }
 
- .leg2{
+ .leg2 {
+    list-style: none;
+
     font-size: 10px;
     color: #555555;
-    padding-left: 6px;
-    margin: -5px;
+    text-align: right;
+    display: flex;
     align-items: center;
     padding: auto;
+    justify-content: space-around;
+    width: 500px;
+    height: 15px;
+    padding-left: 10px;
+    margin: -2px;
+ }
+
+ .tit {
+    font-weight: bold;
+    text-align: right;
  }
